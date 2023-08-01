@@ -1,0 +1,101 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"href="styles.css">
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="#welcome-section">About</a>
+      <a href="#projects">Projects</a>
+      </nav>
+      
+    </header>
+    <section id="welcome-section">
+      <h1>Welcome to My Personal Portfolio</h1>
+      <p>I am an up and coming web developer</p>
+      <p>My contact info and GitHub is listed below.</p>
+      <p>Phone Number:718-810-4414</p>
+      <p><a href="https://github.com/bthoma31/CompSciPortfolio">Git Hub</a></p>
+      <p>Email:benoythomas30@gmail.com</p>
+       </section>
+    <section id="projects">
+      <h2>These are my Projects</h2>
+      <div class="project-grid">
+        <a
+      href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form"
+      target="_blank"
+      class="project-tile"
+      id="profile-link"
+    >
+      <img
+        class="project-image"
+        src="https://img.freepik.com/premium-vector/survey-form-online-vector-illustration-fill-questionnaire-assessment-review-tablet-screen-concept_185038-468.jpg?w=2000">
+        
+      
+      <p>
+        
+        Survey Form
+        
+      </p>
+    </a>
+    <a
+      href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page"
+      target="_blank"
+      class="project-tile"
+      id="profile-link"
+    >
+      <img
+        class="project-image"
+        src="https://image.cnbcfm.com/api/v1/image/101524695-457220551.jpg?v=1395781183">
+        
+      
+      <p>
+        
+        Tribute Page
+        
+      </p>
+    </a>
+    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage">
+    <img src="https://shots.codepen.io/username/pen/zNBOYG-800.jpg?version=1619578673">
+    <p>Personal Portfolio</p>
+        </div>
+      
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+img {
+  display: block;
+  width: 100%;
+}
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:yellow;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  color:black;
+}
+@media only screen and(max-width: 720px){
+  .project-tile{
+    background:blue;
+  }
+}
+
+** end of undefined **
+
