@@ -1,0 +1,75 @@
+** start of undefined **
+
+<!DOCTYPE html> 
+<html lang="en"> <head> 
+  <meta charset="UTF-8" /> 
+  <link rel="stylesheet" href="styles.css" /> 
+  <title>Survey Form</title> 
+  </head> 
+  <body> 
+    <h1 id="title">Survery Form</h1> <p id="description">This is the survey form for our summer NBA camp</p> 
+    <form id="survey-form"> <label for="name" id="name-label"><p>Name:</p><input type="text" id="name" required placeholder="Benoy Thomas"/>
+    </label> 
+    <label for="email"id="email-label"><p>Email:</p><input type="email"id="email"required placeholder="manuthomas13@gmail.com"/> 
+    </label> 
+    <label for="age"id="number-label"><p>Age:</p><input id="number" type="number" min="13" max="21"placeholder="18"></label> 
+    <label><p>What do you want to learn?</p> 
+      <select id="dropdown"> <option></option> <option>dribbling</option> <option>shooting</shooting> <option>passing</option> <option>defense</option> </label> 
+      </select>
+      <p>Who is your favourite player?</p>
+        <label>
+          <input
+            type="radio"
+            name="favorite"
+            value="lebrom"
+          />Lebrom!
+        </label>
+        <label >
+          <input
+            
+            type="radio"
+            name="favorite"
+            value="Curry"
+          />Curry
+        </label>
+        <label >
+          <input  type="radio" name="favorite" value="other" />Other
+        </label>
+        <p>How do you want information to be shared to you?</p>
+        <label><input type="checkbox" value="phone"/>Phone</label>
+        <label><input type="checkbox"value="email"/>Email</label>
+        <textarea>Put suggestions here</textarea>
+        <button type="submit" id="submit"></button>
+      </form> 
+      </body> 
+      </html>
+
+** end of undefined **
+
+** start of undefined **
+
+main {
+  text-align: center;
+  background-color: #92869c;
+  background-blend-mode: lighten;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 50px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+body {
+  text-align: center;
+  background: #3a3240;
+  color: white;
+}
+input, textarea, select, button {
+  background: #3a3240;
+  color: white;
+}
+a {
+  color: white;
+}
+
+** end of undefined **
+
