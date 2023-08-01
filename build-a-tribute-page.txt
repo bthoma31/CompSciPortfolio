@@ -1,0 +1,53 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobe Bryant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <div class="header">
+      <h1 id="title">Kobe Bryant</h1>
+      <p>Lakers Legend and Proud Father
+      </div>
+      <div id="img-div">
+        <img id="image" src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSfWhnqPLN85v8M6UxGh2RD4_u01tYaq3ihBHDwQBHUknh55bDyMXRp0pykIiBwyAJwWzFIja0IlsaXP44">
+        <figcaption id="img-caption">Kobe Bryant in the latter years of his career.</figcaption>
+        </div>
+        <div id="tribute-info">
+          <h2>A simple timeline of Kobe Career</h2>
+          <div>
+            <ul>
+              <li><span>1996</span> - Kobe gets drafted to the Hornets but gets traded the same day to the lakers</li>
+              <li><span>2000-2003</span>- With his new teamate, Shaq kobe goes on to three peat and becoming a champion at a young age.</li>
+              <li>2004 - Kobe and shaw start beefing and despite making it to the finals they loose and the both of them end up parting ways.</li>
+              <li>2005-2008 - For years Kobe drags his subpar team to get bag to the finals but depsite his best efforts they would come just short and loose to the Boston Celtics in 2008</li>
+              <li>2009-2010 - After years of hard work Kobe is able to reclaim his greatness and cement himself as not only an NBA legend but also the greatest Laker of all time</li>
+              <li>2012 -Kobe trys to be great again but instead he would tear his achilles as it seems that father time has caught up to Kobe Bryant</li>
+              <li>2012-2016 -  The next couple of years Kobe struggled to get back to his former self and therefore he deciced retirement was the move. Regardless he went out with a bang and scored 60 in his final game ever</li>
+               </div>
+         <footer>
+           If you want to learn more about the great Kobe Bryant click on this <a id="tribute-link"href="https://en.wikipedia.org/wiki/Kobe_Bryant" target="_blank">link to take you to a Wiki page about him </a> </footer>      
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div > #image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+** end of undefined **
+
